@@ -8,7 +8,7 @@ void setup()
   // Initialise I2C communication as MASTER
   Wire.begin();
   // Initialise serial communication, set baud rate = 9600
-  Serial.begin(9600);
+  Serial.begin(115200);
   delay(300);
 }
  

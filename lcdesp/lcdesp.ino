@@ -3,15 +3,14 @@
 
 #include <WiFiUdp.h>
 
-#include <NTPClient.h>
+
 
 #include <LiquidCrystal_I2C.h>
 
 
 WiFiUDP ntpUDP;
-NTPClient temps(ntpUDP, "fr.pool.ntp.org" ,0, 60000);
-const char* ssid = "Penda_hakim";
-const char* password =  "cypher007@zaco06";
+const char* ssid = "BOYE";
+const char* password =  "B0ye@2020";
 String heure =temps.getFormattedTime();
 
 // set the LCD number of columns and rows
